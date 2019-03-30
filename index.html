@@ -3,54 +3,85 @@
 <head>
     <title>Google</title>
     <link rel="icon" href="images/google-icon.png">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="left-head">
-            <p>About</p>
-            <p>Store</p>
-        </div>
-        <div class="right-head">
-            <p>Gmail</p>
-            <P>Images</P>
-            <img src="images/grid.png" alt="grey grid icon">
-            <div id="sign-in">
-                <p>Sign in</p>
-            </div>
-        </div>
 
-    </div>
+
+
+    <ul>
+        <div class="left">
+            <li class="left toplinks"> <a href="#">About</a></li>
+            <li class="left toplinks"><a href="#">Store</a></li>
+        </div>
+        <div class="right">
+            <li class="right">
+                <div>
+                    <a href="#"><img class="topimg" id="signin" src="images/headericon.jpg" alt="Google Sign-in Icon"></a>
+                </div>
+            </li>
+            <li class="right">
+                <div>
+                        <a href="#"><img class="topimg" id="gridapps" src="images/grid.png" alt="grey grid icon"></a>
+                </div>
+            </li>
+            <li class="right toplinks"><a href="#">Images</a></li>
+            <li class="right toplinks"><a href="#">Gmail</a></li>
+
+
+
+        </div>
+    </ul>
+
+
+
+
     <div class="middle">
-        <div id="logo"><img src="images/logo.png" alt="Google"></div>
+        <img class="logo" src="images/logo.jpg" alt="Google Logo">
 
 
-        <div class="search-bar">
-            <form>
+
+        <form>
+            <div class="search-line">
                 <input type='text' name="search">
-            </form>
-            <img src="images/googlemic.png" alt="Microphone">
-        </div>
 
-        <div class="search-links">
-            <button id="searchbutton" type="button">Google Search</button>
-            <button id="lucky" type="button">I'm Feeling Lucky</button>
-        </div>
-
-        <div class="footer">
-            <div id="leftfoot">
-                <p>Advertising</p>
-                <p>Business</p>
+                <img src="images/googlemic.png" alt="Microphone">
             </div>
-            <div id="rightfoot">
-                <p>Privacy</p>
-                <p>Terms</p>
-                <p>Settings</p>
-            </div>
-        </div>
 
+            <div class="searchbuttons">
+                <div class="search">
+                    <input type="submit" value="Google Search" name="search">
+                </div>
+                <div class="lucky">
+                    <input type="submit" value="I'm Feeling Lucky!" name="search">
+                </div>
+            </div>
+
+
+        </form>
 
     </div>
+
+
+    <div class="footer">
+        <ul>
+            <div class="left">
+                <li class="left bottomlink"><a href="#">Advertising</a></li>
+                <li class="left bottomlink"><a href="#">Business</a></li>
+            </div>
+
+            <div class="right">
+                <li class="right bottomlink"><a href="#">Privacy</a></li>
+                <li class="right bottomlink"><a href="#">Terms</a></li>
+                <li class="right bottomlink"><a href="#">Settings</a></li>
+            </div>
+        </ul>
+
+    </div>
+
+
+
 
 
 

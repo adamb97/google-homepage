@@ -1,0 +1,128 @@
+html, body {
+margin: 0;
+    overflow: hidden;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .toplinks {
+    margin-top: 13px;
+    margin-left: 25px;
+  }
+  
+  .toplinks a {
+    color:#000;
+  }
+  
+  a {
+    font-size: 13px;
+    color: #5d6368;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .topimg {
+    height: 25px;
+    width: 25px;
+    margin-top: 9px;
+    margin-left: 18px;
+    margin-right: 0px;
+       }
+  .middle {
+    width: 100%;
+    height: 52%;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+      }
+  .logo {
+    display: block;
+    width: 30%;
+    margin: 0px auto;
+    
+  }
+  .search-line {
+    width: 46%;
+    margin: 15px auto 25px auto;
+    height: 42px;
+    transform: translate(15px);
+  }
+  .search-line img{
+      height: 35px;
+      width: 24px;
+      transform: translate(5px, 10px);
+  }
+  .search-line input {
+    width: 90%;
+    height: 100%;
+    border-radius: 40px;
+    border: solid lightgray 1px;
+  }
+  .bar input:hover, .bar input:active {
+    box-shadow: 2px 2px 8px lightgrey;
+  }
+  
+  .searchbuttons {
+    display: block;
+    width: 22%;
+    margin: 40px auto;
+  }
+  .search {
+    width: 46%;
+    float: left;
+    height: 36px;
+  }
+  
+  .lucky {
+     width: 50%;
+    float: right;
+    height: 36px;
+  }
+  
+  .search input, .lucky input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245,245,245);
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #5f6368;
+  }
+  
+  .search input:hover, .lucky input:hover {
+    border: solid lightgrey 1px;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    border-top: solid lightgrey 1px;
+  }
+  
+  .bottomlink {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  
