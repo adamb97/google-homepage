@@ -1,7 +1,9 @@
 html, body {
-margin: 0;
-    overflow: hidden;
+    margin: 0;
+    overflow: hidden; 
 }
+/* the above declarations are making it so that the page does not scroll horizontally, as that is an issue I ran into for the footer*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
